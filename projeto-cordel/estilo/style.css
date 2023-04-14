@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@0;1&display=swap');
+
+* {
+    margin: 0px;
+    padding: px;
+}
+
+
+html, body {
+    min-height: 100vh;
+    background-color: gray;
+}
+
+header {
+    background-image: radial-gradient(circle, white 5%, rgba(165, 116, 42, 0.788));
+    padding: 50px;
+    background-color: black;
+    min-width: 400px;
+}
+
+header > h1 {
+    font-family: 'Slackey', cursive;
+    text-align: center;
+    font-size: 7vw;
+}
+
+header > h2 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+header > h2 > a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgba(141, 62, 9, 0.781);
+    transition-duration: .5s;
+}
+
+section {
+    font-family: 'Kanit', sans-serif;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-style: oblique;
+    font-size: 3vw;
+    line-height: 2em;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: white;
+}
+
+section.imagem {
+    background-color: rgb(41, 40, 40);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.459);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 7px;
+    background-color: rgba(0, 0, 0, 0.199);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.692);
+}
+
+section#imagem001 {
+    background-image: url('../imagens/tecno5.jpeg');
+    background-position: left top;
+}
+
+section#imagem002 {
+    background-image: url('../imagens/background002.jpg');
+    background-position: left center;
+}
+
+footer {
+    background-image: radial-gradient(circle, white 5%, rgba(165, 116, 42, 0.788));
+    max-height: auto;
+}
+
+footer > p {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    font-style: normal;
+    padding: 10px;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: black;
+}
